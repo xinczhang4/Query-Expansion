@@ -19,9 +19,6 @@ import sys
 stop_words = set(stopwords.words('english'))
 tfidf = TfidfVectorizer()
 
-# # set search engine and api keys
-# search_engine_id = '4bb444072b2573605'
-# api_key = 'AIzaSyCoZ-0Vllrj5DHiEdjdDtYCD1AkPR2tTOs'
 
 it = 0
 iterations = 2
